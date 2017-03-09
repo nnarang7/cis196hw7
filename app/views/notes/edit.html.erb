@@ -1,0 +1,8 @@
+
+<h1>Editing Note</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @note %> |
+<%= link_to 'Delete', @note, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Back', notes_path %>
